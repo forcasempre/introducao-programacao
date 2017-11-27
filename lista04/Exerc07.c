@@ -36,7 +36,7 @@ scanf("%d", &y1);
 z1 = pot(x1, y1);
 
 //saída dos dados
-printf("O Resultado da Potência é: %.2f\n", z1);
+printf("\nO Resultado da Potência é: %.2f\n", z1);
 
    system("pause");
 
