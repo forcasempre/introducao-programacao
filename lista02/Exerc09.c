@@ -19,16 +19,17 @@ int main()
     printf("Digite o 3° Número: \n");
     scanf("%d", &num3);
 
-//condição para se n1 > n2 e n1 > n3
+//condição para se n1 > n2 e n1 > n3 imprimir n1
     if (num1>num2&&num1>num3) {
         printf("\n%d\n\a", num1);
+//condição para se n2 > n1 e n2 > n3 imprimir n2        
         } else if (num2>num1&&num2>num3) {
         printf("\n%d\n\a", num2);
+//condição para se n3 > n1 e n3 > n2 imprimir n3
         } else {
         printf("\n%d\n\a", num3);
 }
-
-
+    system("pause");
 
     return 0;
 }
